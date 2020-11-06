@@ -6,6 +6,11 @@ $(function(){
     console.log(students)
   })
 
+  $("#button01").on("click",function(){
+    students[1]
+    students.length 
+  }
+
  
 
 
