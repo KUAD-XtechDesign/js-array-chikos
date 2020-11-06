@@ -11,9 +11,15 @@ $(function(){
   })
 
   $("#button02").on("click",function(){
-    $("#")
-  }
+    $("#content").text(students[2]);
+  })
  
+  $("#button03").on(click,function(){
+    $("#content").text(student[student.length-1]);
+  })
 
+  $("#button04").on(click,function(){
+    $("#content")
+  })
 
 })
