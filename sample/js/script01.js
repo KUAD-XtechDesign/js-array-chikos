@@ -15,11 +15,19 @@ $(function(){
   })
  
   $("#button03").on(click,function(){
-    $("#content").text(student[student.length-1]);
+    $("#content").text(students[students.length-1]);
   })
 
   $("#button04").on(click,function(){
-    $("#content")
+
+    students.push("山下")
+
+    $("#content").text(students[students.length-1]);
+  })
+
+  $("#button05").on(click,function(){
+    students=students.reverse()
+
   })
 
 })
