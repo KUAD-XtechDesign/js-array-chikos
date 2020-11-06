@@ -7,9 +7,9 @@ $(function(){
   })
 
   $("#button01").on("click",function(){
-    students[1]
-    students.length 
-  }
+    console.log(students[1])
+    console.log(students.length)
+  })
 
  
 
