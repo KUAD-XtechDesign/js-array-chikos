@@ -8,7 +8,7 @@ $(function(){
 
   $("#button01").on("click",function(){
     console.log(students[1])
-   
+    console.log(student.length)
   })
 
  
