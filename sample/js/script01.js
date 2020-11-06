@@ -7,8 +7,7 @@ $(function(){
   })
 
   $("#button01").on("click",function(){
-    console.log(students[1])
-    console.log(student.length)
+    $("#content").text("最初は"+student[0]+"で全員で"+student.length+"人です");
   })
 
  
