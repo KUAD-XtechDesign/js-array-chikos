@@ -7,9 +7,12 @@ $(function(){
   })
 
   $("#button01").on("click",function(){
-    $("#content").text("最初は" + student[0] + "で全員で" + students.length + "人です");
+    $("#content").text("最初は" + students[0] + "で全員で" + students.length + "人です");
   })
 
+  $("#button02").on("click",function(){
+    $("#")
+  }
  
 
 
