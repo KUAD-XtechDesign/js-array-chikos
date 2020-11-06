@@ -5,7 +5,12 @@ $(function(){
   $("#button00").on("click",function(){
     console.log(students)
   })
+
+  $("#button01").on("click",function(){
+    $("#content").text(students)
+  }
   
+
 
 
 
