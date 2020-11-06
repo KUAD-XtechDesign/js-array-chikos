@@ -8,7 +8,7 @@ $(function(){
 
   $("#button01").on("click",function(){
     $("#content").text(students)
-  }
+  })
   
 
 
