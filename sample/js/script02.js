@@ -9,7 +9,7 @@ $(function(){
   $("#button01").on("click",function(){
     let students_txt="";
     for(let i=0; i<students.length; i++){
-      students_txt += students[1]
+      students_txt += students[i]
       students_txt +='/'
     }
 
