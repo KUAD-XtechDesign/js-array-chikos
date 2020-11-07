@@ -30,8 +30,8 @@ $(function(){
      let students_txt="<div class='students'>";
 
      for(let i=0; i<students.length; i++){
-       students_txt += <div id='student${i}' class='student'><p>${students[i].neme}</p>
-       <p>${students[i].sport}</p><p>${students[i].age}</p></div>
+       students_txt += `<div id='student${i}' class='student'><p>${students[i].neme}</p>
+       <p>${students[i].sport}</p><p>${students[i].age}</p></div>`
        }
      
        students_txt+="</div>";
