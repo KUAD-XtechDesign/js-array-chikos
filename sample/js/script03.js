@@ -20,7 +20,7 @@ $(function(){
     let students_txt="";
 
     for(let i=0; i<students.length; i++){
-      students_txt += student[i].name+':'+students[i].sport+'/'
+      students_txt += students[i].name+':'+students[i].sport+'/'
     }
 
     $("#content").text(students_txt);
