@@ -20,7 +20,7 @@ $(function(){
     let students_txt="";
 
     for(let i=0; i<students.length; i++){
-      students_txt += student[i].neme+':'+students[i].sport+'/'
+      students_txt += student[i].name+':'+students[i].sport+'/'
     }
 
     $("#content").text(students_txt);
@@ -30,7 +30,7 @@ $(function(){
      let students_txt="<div class='students'>";
 
      for(let i=0; i<students.length; i++){
-       students_txt += `<div id='student${i}' class='student'><p>${students[i].neme}</p>
+       students_txt += `<div id='student${i}' class='student'><p>${students[i].name}</p>
        <p>${students[i].sport}</p><p>${students[i].age}</p></div>`
        }
      
